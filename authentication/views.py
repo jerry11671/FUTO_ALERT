@@ -39,7 +39,7 @@ class LoginUserView(GenericAPIView):
     serializer_class = LoginSerializer
 
     @extend_schema(
-        summary="Registers a new designer/vendors",
+        summary="Authenticates a  user",
         description="This endpoint authenticates registered user into the FUTO_ALERT application",
         tags=tags,
         responses={201: LoginSerializer}
