@@ -127,7 +127,7 @@ REST_FRAMEWORK = {
 
 SPECTACULAR_SETTINGS = {
     'TITLE': 'FUTO_ALERT_BACKEND_APPLICATION BY GODSON JERRY',
-    'DESCRIPTION': 'Contains server side logic for FUTO ALERT',
+    'DESCRIPTION': 'Contains server side logic for FUTO ALERT APPLICATION',
     'VERSION': '1.0.0',
     'SERVE_INCLUDE_SCHEMA': False,
 }
